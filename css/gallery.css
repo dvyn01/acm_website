@@ -1,9 +1,5 @@
-div#all {
-    max-width: 100%;
-    max-height: 100%;
-}
 
-.img-view {
+/* .img-view {
     margin: 0px;
     overflow: hidden;
     position: relative;
@@ -16,8 +12,20 @@ div#all {
     align-items: center;
     align-content: center;
     justify-content: center;
+} */
+
+.progress-container {
+    /* background:linear-gradient(to right,var(--subtle-yellow1) var(--scroll),transparent 0); */
+    width: 100%;
+    height: 3px;
+    position: fixed;
 }
 
+.progress-bar {
+    height: 3px;
+    background: #012415;
+    width: 0%;
+}
 
 /* .img-view img {
     width: 100%;
@@ -26,7 +34,7 @@ div#all {
 
 .img-resize {
     height: 210px;
-    width: 340px;
+    width: 320px;
     overflow: hidden;
     position: absolute;
     text-align: center;
@@ -47,8 +55,8 @@ div#all {
 
 .view-first img {
     transition: all 0.2s linear;
-    width: 340px;
-    height: 210px;
+    /* width: 320px;
+    height: 210px; */
 }
 /* 
 .view-first #mask1, #mask2, #mask3, #mask4 {
@@ -56,21 +64,21 @@ div#all {
     transition: all 0.4s ease-in-out;
 } */
 
-.view-first p {
+/* .view-first p {
     transform: translateY(100px);
-    /* transform: translate3d(100); */
+    transform: translate3d(100);
     opacity: 0;
-    /* height: 210px; */
-    /* width: 340px; */
+    height: 210px;
+    width: 340px;
     transition: all 0.2s linear;
     text-align: center;
     display:flex;
     flex-direction:column;
-    /* vertical-align: text-bottom; */
-}
+    vertical-align: text-bottom;
+} */
 
 .view-first:hover img {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 /* 
 .view-first:hover #mask1, #mask2, #mask3, #mask4 {
@@ -85,6 +93,6 @@ div#all {
 /* Specify width of the container */
 @media (min-width: 1200px) {
     .container {
-      width: 1400px;
+      width: 990px;
     }
   }
