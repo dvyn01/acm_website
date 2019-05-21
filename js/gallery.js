@@ -3,13 +3,18 @@ $('[data-fancybox]').fancybox({
     transitionEffect: 'fade',
     transitionDuration: 1500,
     animationDuration: 400,
+    helpers : {
+        title: {
+            type: 'over',
+        }
+    },
     buttons: [
         "zoom",
         "slideShow",
         "fullScreen",
         "share",
         "close"
-    ]
+    ],
 });
 
 

@@ -1,4 +1,7 @@
-
+/* body {
+    background-image: url("https://www.xmple.com/wallpaper/black-linear-gradient-grey-3200x1800-c2-c0c0c0-000000-a-15-f-14.svg");
+    background-size: cover;
+} */
 /* .img-view {
     margin: 0px;
     overflow: hidden;
@@ -14,6 +17,10 @@
     justify-content: center;
 } */
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .progress-container {
     /* background:linear-gradient(to right,var(--subtle-yellow1) var(--scroll),transparent 0); */
     width: 100%;
@@ -25,6 +32,11 @@
     height: 3px;
     background: #012415;
     width: 0%;
+}
+
+.icon {
+    height: 100px;
+    width: 50px;
 }
 
 /* .img-view img {
