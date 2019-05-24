@@ -48,12 +48,12 @@ body {
     height: 210px;
     width: 320px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     text-align: center;
     cursor: default;
     object-fit: cover;
     object-position: center;
-    margin: 0px;
+    margin: 5px;
 }
 
 /* #mask1, #mask2, #mask3, #mask4 {
@@ -63,17 +63,6 @@ body {
     overflow: hidden;
     top: 0;
     left: 0;
-} */
-
-.view-first img {
-    transition: all 0.2s linear;
-    /* width: 320px;
-    height: 210px; */
-}
-/* 
-.view-first #mask1, #mask2, #mask3, #mask4 {
-    opacity: 0;
-    transition: all 0.4s ease-in-out;
 } */
 
 /* .view-first p {
@@ -89,18 +78,14 @@ body {
     vertical-align: text-bottom;
 } */
 
-.view-first:hover img {
+/* .img-resize:hover {
     transform: scale(1.03);
-}
+    transition: all 0.2s linear;
+} */
 /* 
 .view-first:hover #mask1, #mask2, #mask3, #mask4 {
     opacity: 1;
 } */
-
-.view-first:hover p {
-    transition-delay: 0.1s;
-    opacity: 1;
-}
 
 /* Specify width of the container */
 @media (min-width: 1200px) {
