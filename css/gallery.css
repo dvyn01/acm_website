@@ -30,7 +30,7 @@ body {
 
 .progress-bar {
     height: 3px;
-    background: #012415;
+    background: gainsboro;
     width: 0%;
 }
 
