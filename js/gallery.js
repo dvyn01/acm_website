@@ -40,6 +40,6 @@ $(window).scroll(function () {
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled_val = (winScroll / height) * 100;
     var progress = $(".progress-bar")[0];
-    console.log(scrolled_val);
+    // console.log(scrolled_val);
     progress.style.setProperty('width', scrolled_val + '%');
 });
